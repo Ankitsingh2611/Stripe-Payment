@@ -33,7 +33,7 @@
                                 <div class="row">
                                     <div class="col-sm-3 hidden-xs"><img src="{{ asset('img') }}/1.jpg" width="100" height="100" class="img-responsive"/></div>
                                     <div class="col-sm-9">
-                                        <h4 class="nomargin">Ankit Desktop</h4>
+                                        <h4 class="nomargin">Art8</h4>
                                     </div>
                                 </div>
                             </td>
@@ -49,7 +49,7 @@
                     </tbody>
                     <tfoot>
                         <tr>
-                            <td colspan="5" style="text-align:right;"><h3><strong>Total $999</strong></h3></td>
+                            <td colspan="5" style="text-align:right;"><h3><strong>Total $6</strong></h3></td>
                         </tr>
                         <tr>
                             <td colspan="5" style="text-align:right;">
@@ -57,7 +57,7 @@
                                 <a href="{{ url('/') }}" class="btn btn-danger"> <i class="fa fa-arrow-left"></i> Continue Shopping</a>
                                 <input type="hidden" name="_token" value="{{csrf_token()}}">
                                 <input type='hidden' name="total" value="6">
-                                <input type='hidden' name="productname" value="Art">
+                                <input type='hidden' name="productname" value="Art8">
                                 <button class="btn btn-success" type="submit" id="checkout-live-button"><i class="fa fa-money"></i> Checkout</button>
                                 </form>
                             </td>
